@@ -1,0 +1,104 @@
+ body,
+ html {
+     height: 100%;
+     margin: 0;
+ }
+
+
+ /* Container Style  */
+ .wrapper {
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+ }
+
+ .content {
+     flex: 1;
+ }
+
+ /* Header style */
+
+ header {
+     background-color: rgb(188, 148, 96);
+     font-weight: bold;
+     padding: 1em 2em;
+     color: #fff;
+ }
+
+ nav ul li a {
+     color: #fff;
+ }
+
+ .fit-image {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+ }
+ /* Footer Style */
+
+ footer {
+     background-color: rgb(188, 148, 96);
+     padding: 10px 0;
+ }
+
+ footer img {
+     max-height: 50px;
+ }
+
+ footer a,
+ footer p {
+     color: #fff;
+ }
+
+
+ /* spende style   */
+ .hidden {
+     display: none;
+ }
+
+ .dropdown-title {
+     font-weight: bold;
+     color: #333;
+     margin-bottom: 10px;
+ }
+
+ .dropdown-divider {
+     margin-top: 0;
+     margin-bottom: 0;
+ }
+
+ .spenden {
+     background-color: rgb(200, 235, 206);
+     padding: 2em;
+     border-radius: 5px;
+
+ }
+
+ .btn-check {
+     background-color: rgb(220, 229, 96);
+ }
+
+
+ /* button mit text and a logo */
+ .btn-with-logo {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: rgb(188, 148, 96);
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .btn-with-logo:hover {
+     background-color: #3d3e3e;
+ }
+
+ .btn-icon {
+     vertical-align: middle;
+     margin-right: 5px;
+ }
